@@ -1,29 +1,52 @@
 @import "node_modules/uikit/src/less/uikit.theme.less";
 //@import "node_modules/uikit/src/less/uikit.less";
 @spacing-unit:     30px;
+@height-large-height:                           700px;
+@global-xxlarge-font-size:                      5.625rem; // 42px
+
+@navbar-background: #ffffff;
+@global-primary-background: #FFB870;
+@global-secondary-background: #000000;
+
+h2, .hook-uk-h2{
+  .uk-text-uppercase;
+  .uk-text-bold;
+}
+
+h3, .hook-uk-h3{
+  font-size: @global-font-size;
+  .uk-text-uppercase;
+  .uk-text-bold;
+  margin: 0;
+
+}
+h4, .hook-uk-h4{
+  font-size: @global-font-size;
+  margin: 0;
+}
 /**
  * Fonts
  */
  @font-face {
     font-family: 'Steel';
-    src: url('./fonts/hffblacksteel-webfont.eot');
-    src: url('./fonts/hffblacksteel-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/hffblacksteel-webfont.woff2') format('woff2'),
-         url('./fonts/hffblacksteel-webfont.woff') format('woff'),
-         url('./fonts/hffblacksteel-webfont.ttf') format('truetype'),
-         url('./fonts/hffblacksteel-webfont.svg#hff_black_steelregular') format('svg');
+    src: url('fonts/hffblacksteel-webfont.eot');
+    src: url('fonts/hffblacksteel-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/hffblacksteel-webfont.woff2') format('woff2'),
+         url('fonts/hffblacksteel-webfont.woff') format('woff'),
+         url('fonts/hffblacksteel-webfont.ttf') format('truetype'),
+         url('fonts/hffblacksteel-webfont.svg#hff_black_steelregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'latohairline';
-    src: url('./fonts/lato-hairline-webfont.eot');
-    src: url('./fonts/lato-hairline-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/lato-hairline-webfont.woff2') format('woff2'),
-         url('./fonts/lato-hairline-webfont.woff') format('woff'),
-         url('./fonts/lato-hairline-webfont.ttf') format('truetype'),
-         url('./fonts/lato-hairline-webfont.svg#latohairline') format('svg');
+    src: url('fonts/lato-hairline-webfont.eot');
+    src: url('fonts/lato-hairline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lato-hairline-webfont.woff2') format('woff2'),
+         url('fonts/lato-hairline-webfont.woff') format('woff'),
+         url('fonts/lato-hairline-webfont.ttf') format('truetype'),
+         url('fonts/lato-hairline-webfont.svg#latohairline') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -59,12 +82,6 @@
     width: 100%;
     > ul { list-style: none;}
 }
-@global-xxlarge-font-size:                      5.625rem; // 42px
-
-@navbar-background: #ffffff;
-@global-primary-background: #FFB870;
-@global-secondary-background: #000000;
-
 .hook-link-text() {
     color: #000;
 }
@@ -86,13 +103,30 @@
     width: 100%;
     overflow: hidden;
 }
-
 #container2{
     width: 100%;
     height: 100%;
     overflow-y: scroll;
     padding-right: 32px; /* Increase/decrease this value for cross-browser compatibility */
     box-sizing: content-box; /* So the width will be 100% + 17px */
+}
+
+.wbr-scroll-cap2 {
+  height: 89vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-right: 15px;
+}
+#container3{
+  height: 700px;
+  overflow: hidden;
+}
+#container4{
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  padding-right: 32px; /* Increase/decrease this value for cross-browser compatibility */
+  box-sizing: content-box; /* So the width will be 100% + 17px */
 }
 
 .map-wrapper {
@@ -185,3 +219,29 @@
     visibility: visible;
   }
   
+  
+.byline {
+	background: @global-primary-background;
+}
+
+.filter-link{
+  color: #000;
+  text-decoration: none;
+  &:hover{
+    .byline;
+    color: #000;
+  }
+}
+
+.uk-accordion-title::after {
+  content: ;
+  width: 1.4em;
+  height: 1.4em;
+  float: right;
+  background-image: url('');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.wbr-link-crosshair{
+  cursor: crosshair;
+}

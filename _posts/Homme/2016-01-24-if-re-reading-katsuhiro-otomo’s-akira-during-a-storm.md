@@ -1,0 +1,9 @@
+---
+layout: post 
+date: 2016-01-24
+title: If re-reading Katsuhiro Otomo’s Akira During a Storm
+author: John Beck
+category: poetry
+issue: homme
+---
+![wbrbeck](/assets/img/homme/akira-during-a-storm.jpg)

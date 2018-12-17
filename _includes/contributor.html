@@ -1,0 +1,14 @@
+<li class="">
+        <a class="uk-accordion-title uk-text-meta wbr-link-crosshair" href="#">{{author.name}}</a>
+        <div class="uk-accordion-content">
+        {{author.description}}
+          <hr />
+          <ul class="contributor-list">
+          {% assign the_posts = site.posts | where: 'author', {author.name} %} 
+          
+          {% if the_posts %}{% for post in the_posts %} 
+          <li><a href="{{post.url}}">{{post.title}}</a></li>
+          {% endfor %}{% endif %}	
+          </ul>
+        </div>
+        </li>
