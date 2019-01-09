@@ -1,5 +1,5 @@
-<li class="">
-        <a class="uk-accordion-title uk-text-meta wbr-link-crosshair" href="#">{{author.name}}</a>
+<li id="{{author.name | downcase | replace:' ','-' }}" class="">
+        <a class="uk-accordion-title uk-text-meta wbr-link-crosshair" >{{author.name}}</a>
         <div class="uk-accordion-content">
         {{author.description}}
           <hr />

@@ -11,7 +11,7 @@ _I. ALLEGORY AND SYMBOL_
 Since the advent, in the course of the nineteenth century, of a subjectivistic critical vocabulary, the traditional forms of rhetoric have fallen into disrepute. Since the advent, in the course of the nineteenth century, of a subjectivistic critical vocabulary, the traditional forms of rhetoric have fallen into disrepute. Since the advent, in the course of the nineteenth century, of a subjectivistic critical vocabulary, the traditional forms of rhetoric have fallen into disrepute. Since the advent, in the course of the nineteenth century, of a subjectivistic critical vocabulary, the traditional forms of rhetoric have fallen into disrepute. Since the advent, in the course of the nineteenth century, of a subjectivistic critical vocabulary, the traditional forms of rhetoric have fallen into disrepute. Since the advent, in the course of the nineteenth century, of a subjectivistic critical vocabulary, the traditional forms of rhetoric have fallen into disrepute. Since the advent, in the course of the nineteenth century, of a subjectivistic critical vocabulary, the traditional forms of rhetoric have fallen into disrepute. Since the advent, in the course of the nineteenth century, of a subjectivistic critical vocabulary, the traditional forms of rhetoric have fallen into disrepute. Since the advent, in the course of the nineteenth century, of a subjectivistic critical vocabulary, the traditional forms of rhetoric have fallen into disrepute. Since the advent, in the course of the nineteenth century, of a subjectivistic critical vocabulary, the traditional forms of rhetoric have fallen into disrepute. Since the advent, in the course of the nineteenth century, of a subjectivistic critical vocabulary, the traditional forms of rhetoric have fallen into disrepute. Since the advent, in the course of the nineteenth century, of a subjectivistic critical vocabulary, the traditional forms of rhetoric have fallen into disrepute. Since the advent, in the course of the nineteenth century, of a subjectivistic critical vocabulary, the traditional forms of rhetoric have fallen into disrepute. Since the advent, in the course of the nineteenth century, of a subjectivistic critical vocabulary, the traditional forms of rhetoric have fallen into disrepute.
 Since the advent, in the course of the nineteenth century, of a subjectivistic critical vocabulary, the traditional forms of rhetoric have fallen into disrepute. Since the advent, in the course of the nineteenth century, of a subjectivistic critical vocabulary, the traditional forms of rhetoric have fallen into disrepute.
 
-<div class="col-half">A temporary eclipse. The intentionality of
+<div class="uk-width-1-2">A temporary eclipse. The intentionality of
 rhetorical figures. The association of
 rhetorical terms with value judgments
 that blur distinctions and hide the real
@@ -43,7 +43,7 @@ description of figural language as
 translucence. The very prominent place
 </div>
 
-<div class="col-half">given in this criticism to the study of
+<div class="uk-width-1-2">given in this criticism to the study of
 metaphor and imagery, often considered
 as more important than problems of
 metrics or thematic considerations.
