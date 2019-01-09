@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Whole Beast Rag is a quarterly online publication dedicated to writers, artists, and thinkers on the frontier of pop culture and critical thinking. We dabble in literature, interviews, supplements, translations and other transmissions.  
   Whole Beast Rag operated from January 2012 to November 2013. The idea will live on.  
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://wbr.keishaperry.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://reverent-knuth-ecb665.netlify.com" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /articles/:title  
 # Build settings
 markdown: kramdown
