@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %} {% include header.html %}
+
+<body id="post">
+  <div id="main" class="wrapper" role="main">
+    <noscript></noscript>
+  </div>
+<script>
+  var posts = [];
+   {% for post in site.posts %}
+      posts.push("{{ post.url }}");
+   {% endfor %}
+ $(document).ready(function() {
+    window.location = posts[Math.floor(Math.random() * posts.length)];
+    });
+</script>
+ 
+</body>
+
+</html>
